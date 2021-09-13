@@ -42,6 +42,11 @@ const Blog = ({ allPosts: { edges } }) => (
           <li><a href="https://robkendal.co.uk/blog/using-wordpress-as-a-headless-cms-with-next.js">Using WordPress as a headless CMS with Next.js - .K</a></li>
           <li><a href="https://github.com/bpk68/wordpress-next-starter">bpk68 / wordpress-next-starter - Github</a></li>
       </ul>
+      <p>
+          <Link href={`/contact/`}>
+              <a>» 問い合わせフォーム</a>
+          </Link>
+      </p>
 
       <div className="grid grid-cols-3 gap-4">
         {edges.map(({ node }) => (

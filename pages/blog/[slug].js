@@ -53,6 +53,10 @@ export default function Post({ postData }) {
           <Link href='/blog'>
             <a>back to articles</a>
           </Link>
+          <br/>
+          <Link href={`/contact/`}>
+              <a>» 問い合わせフォーム</a>
+          </Link>
         </p>
       </main>
     </div>
